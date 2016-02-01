@@ -3,7 +3,7 @@
 body {font-family: Oxygen; background: #fff; color: #333; font-size: 16px; border: 52px #F8F8F8 solid; margin: 0px; padding: 20px 20px 200px 20px;}
 h1 {font-size: 80px; font-family: Limelight; font-weight: normal; margin: 0px;}
 h2 {font-size: 50px; font-family: Limelight; font-weight: normal; margin: 11px 0px;}
-h3 {font-family: Limelight; font-size: 30px; margin: 10px 0px;}
+h3 {font-family: Limelight; font-size: 30px; margin: 35px 0 0 0px;}
 h4 {font-family: Oxygen; font-size: 24px;}
 
 h1 img {margin-left: auto; margin-right: auto; vertical-align: middle;} 
@@ -53,7 +53,7 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 .category {text-transform: uppercase; font-size: 9px; letter-spacing: .2em; padding-right: 6px;}
 
 #info p {font-size: 16px; padding: 10px; line-height: 19px; font-weight: 300; text-align: justify; text-justify: inter-word; margin-right: 24px;}
-#info {border-top: 4px #F8F8F8 solid;}
+#info {padding: 0 60px; border-top: 4px #F8F8F8 solid;}
 
 #hackSpotsTable {cursor: pointer; background: #fff; overflow-x: auto; padding-bottom: 20px;}
 #hackSpotsTable table {min-width: 900px;}
