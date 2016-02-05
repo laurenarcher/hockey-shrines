@@ -81,7 +81,7 @@
         <table>
             <tr><th class="tHeader">Name</th><th class="tHeader">Address</th><th class="tHeader">City</th><th class="tHeader">Province</th><th class="tHeader">Country</th><th class="tHeader">Important People</th>
             {{#rows}}
-                <tr id="{{rowNumber}}" class="spotRow"><td>{{name}}</td><td>{{address}}</td><td>{{city}}</td><td>{{province}}</td><td>{{country}}</td><td width ="300">{{importantpeople}}</td></tr>
+                <tr id="{{rowNumber}}" class="spotRow"><td>{{name}}</td><td>{{address}}</td><td>{{city}}</td><td>{{province}}</td><td>{{country}}</td><td width ="400" id = "people">{{importantpeople}}</td></tr>
             {{/rows}}
         </table>
     </script>
@@ -93,7 +93,7 @@
             <p class="colorText">{{fulladdress}}</p>
             <ul>
                   <li><div style="width:500px;height:200px;overflow:hidden"><a href ="{{image1}}" target="_blank"><img src="{{image1}}" alt="Hockey Shrine" onerror="this.style.display='none';"></a><a href ="{{image2}}" target="_blank"><img src="{{image2}}" alt="Hockey Shrine" onerror="this.style.display='none';"></a></div></li>
-                <li><span class="category">Important People:</span> {{importantpeople}}</li>
+                <li id = "people"><span class="category">Important People:</span> {{importantpeople}}</li>
                 <li><span class="category">History:</span> {{history}}</li>
                 <li><span class="category">Contributor:</span> {{yourname}}</li>
 <li><span class="category"><a href ="{{link}}">More Info</a></span></li>
@@ -112,8 +112,8 @@
             <p class="colorText">{{fulladdress}}</p>
      
             <ul>
-                 <li><div style="width:500px;height:200px;overflow:hidden"><img src="{{image1}}" alt="Hockey Shrine" onerror="this.style.display='none';"><img src="{{image2}}" alt="Hockey Shrine" onerror="this.style.display='none';"></div></li></div>
-                <li><span class="category">Important People:</span> {{importantpeople}}</li>
+                 <li><div style="width:500px;height:200px;overflow:hidden"><a href ="{{image1}}" target="_blank"><img src="{{image1}}" alt="Hockey Shrine" onerror="this.style.display='none';"></a><a href ="{{image2}}" target="_blank"><img src="{{image2}}" alt="Hockey Shrine" onerror="this.style.display='none';"></a></div></li>
+                <li id = "people"><span class="category">Important People:</span>{{importantpeople}}</li>
                 <li><span class="category">History:</span> {{history}}</li>
                 <li><span class="category">Contributor:</span> {{yourname}}</li>
         <li><span class="category"><a href ="{{link}}">More Info</a></span></li>
