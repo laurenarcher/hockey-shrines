@@ -3,7 +3,7 @@
 body {font-family: Oxygen; background: #fff; color: #333; font-size: 16px; border: 52px #F8F8F8 solid; margin: 0px; padding: 20px 20px 200px 20px;}
 h1 {font-size: 80px; font-family: Limelight; font-weight: normal; margin: 0px;}
 h2 {font-size: 50px; font-family: Limelight; font-weight: normal; margin: 11px 0px;}
-h3 {font-family: Limelight; font-size: 30px; margin: 35px 0 0 0px;}
+h3 {font-family: Limelight; font-size: 30px; margin: 15px 0 0 0px;}
 h4 {font-family: Oxygen; font-size: 24px;}
 
 h1 img {margin-left: auto; margin-right: auto; vertical-align: middle;} 
@@ -41,7 +41,7 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 
 .button {padding: 5px 5px; background-color: #BEBEBE; font-size: 10px; color: #fff;}
 .button:hover {background: #B9FCFC; color: #47CCFC;}
-.fauxButton {padding: 5px 5px; background-color: #FF4646; font-size: 11px; color: #fff; display: inline;}
+.fauxButton {padding: 5px 5px; background-color: #FF4646; font-size: 11px; color: #fff; display: inline; margin: 0;}
 .fauxButton .selected {background-color: #FF4646;}
 .colorText {color: #FF4646; text-transform: uppercase; font-weight: 700;}
 
@@ -71,5 +71,6 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
   #wrapper {max-width: 500px; padding-top: 20px;}
   #hackSpotsTable, #map {min-width: 224px;}
   iframe {max-width:500px; text-align: left; margin: 0;}
+  #rightSide {margin-top: 0px;}
 }
 

@@ -19,7 +19,9 @@
 <body>
     <div id="wrapper">
         <h1><img src="hs.png" alt="Hockey Shrine" height="100" width="auto">   Hockey Shrines</h1>
-        <div>
+       
+        <div class="container">
+<div>
             <ul class="nav">
                 <li><strong>Honouring our Hockey Heroes</strong></li>
                 <li><a href="#info">INFO</a> -</li>
@@ -28,7 +30,6 @@
                 <li><a href="http://www.twitter.com/laurenarcher" target="_blank">@LAURENARCHER</a></li>
             </ul>
         </div>
-        <div class="container">
             <div id="rightSide">
                 <div id="latestSpot"></div>
                 <div id="selectedSpot"></div>
@@ -43,7 +44,7 @@
         </div>
         <div id="info" class="container">
  <h3>Info</h3>
-            <p>It seems like every community in Canada has its Hockey Heroes: The men and women who have made it big in Canada's official winter sport.</p> 
+            <p>It seems like every community in Canada has its Hockey Heroes: The people who have made it big in Canada's official winter sport.</p> 
 
 <p>These heroes might be local hockey players who have brought home the Stanley Cup or who have won Olympic Gold. They might also be the coaches who have inspired us, the presenters who have entertained us, or one of the many people who have dedicated their lives to organizing leagues and introducing new players to the sport.</p>
 
@@ -81,7 +82,7 @@
         <table>
             <tr><th class="tHeader">Name</th><th class="tHeader">Address</th><th class="tHeader">City</th><th class="tHeader">Province</th><th class="tHeader">Country</th><th class="tHeader">Important People</th>
             {{#rows}}
-                <tr id="{{rowNumber}}" class="spotRow"><td>{{name}}</td><td>{{address}}</td><td>{{city}}</td><td>{{province}}</td><td>{{country}}</td><td width ="400" id = "people">{{importantpeople}}</td></tr>
+                <tr id="{{rowNumber}}" class="spotRow"><td>{{name}}</td><td>{{address}}</td><td>{{city}}</td><td>{{province}}</td><td>{{country}}</td><td width ="400">{{importantpeople}}</td></tr>
             {{/rows}}
         </table>
     </script>
