@@ -23,7 +23,7 @@ code {font-family: "Consolas", "Ubuntu Mono", monospace; line-height: 22px; font
 
 #frame {text-align: center; margin: 25px;}
 
-#map {height: 400px; max-width: 500px; min-width: 300px; background: #DADADA;}
+#map {height: 450px; max-width: 500px; min-width: 300px; background: #DADADA;}
 #map a {border: none;}
 
 .container {margin: 24px 0px;}
