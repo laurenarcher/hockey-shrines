@@ -19,6 +19,7 @@
 <body>
     <div id="wrapper">
         <h1><a href = "http://hockeyshrines.ca"><img src="hs.png" alt="Hockey Shrine" height="100" width="auto">  Hockey Shrines</h1></a>
+
         <div>
             <ul class="nav">
                 <li><strong>Honouring our Hockey Heroes</strong></li>
@@ -27,6 +28,7 @@
                 <li><a href="https://www.facebook.com/groups/1697013783916828/" target="_blank">FACEBOOK GROUP</a> -</li>
                 <li><a href="http://www.github.com/laurenarcher/hockey-shrines" target="_blank">GITHUB</a> -</li>
                 <li><a href="http://www.twitter.com/laurenarcher" target="_blank">@LAURENARCHER</a></li>
+<li><a href="https://translate.google.com/translate?hl=en&sl=auto&tl=fr&u=http%3A%2F%2Fhockeyshrines.ca" target="_blank">Français</a></li>
             </ul>
         </div>
         <div class="container">
