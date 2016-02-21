@@ -8,6 +8,7 @@ h4 {font-family: Oxygen; font-size: 24px;}
 
 h1 img {margin-left: auto; margin-right: auto; vertical-align: middle;} 
 p a, a {color: #FF4646; text-decoration: none; padding-bottom: 0px;}
+h1 a {color: black;}
 a:hover {color: #47CCFC;}
 small {padding: 10px 0px; font-size: 10px;}
 p {margin: 0px; padding: 0px; font-size: 16px;}
@@ -23,7 +24,7 @@ code {font-family: "Consolas", "Ubuntu Mono", monospace; line-height: 22px; font
 
 #frame {text-align: center; margin: 25px;}
 
-#map {height: 500px; max-width: 500px; min-width: 300px; background: #DADADA;}
+#map {height: 450px; max-width: 500px; min-width: 300px; background: #DADADA;}
 #map a {border: none;}
 
 .container {margin: 24px 0px;}

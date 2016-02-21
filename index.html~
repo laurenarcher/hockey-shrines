@@ -18,18 +18,18 @@
     </head>
 <body>
     <div id="wrapper">
-        <h1><img src="hs.png" alt="Hockey Shrine" height="100" width="auto">   Hockey Shrines</h1>
-       
-        <div class="container">
-<div>
+        <h1><a href = "http://hockeyshrines.ca"><img src="hs.png" alt="Hockey Shrine" height="100" width="auto">  Hockey Shrines</h1></a>
+        <div>
             <ul class="nav">
                 <li><strong>Honouring our Hockey Heroes</strong></li>
                 <li><a href="#info">INFO</a> -</li>
-                <li><a href="www.facebook.com" target="_blank">FACEBOOK</a> -</li>
+		<li><a href="#contribute">CONTRIBUTE!</a> -</li>
+                <li><a href="https://www.facebook.com/groups/1697013783916828/" target="_blank">FACEBOOK GROUP</a> -</li>
                 <li><a href="http://www.github.com/laurenarcher/hockey-shrines" target="_blank">GITHUB</a> -</li>
                 <li><a href="http://www.twitter.com/laurenarcher" target="_blank">@LAURENARCHER</a></li>
             </ul>
         </div>
+        <div class="container">
             <div id="rightSide">
                 <div id="latestSpot"></div>
                 <div id="selectedSpot"></div>
@@ -58,7 +58,7 @@
 
 <p>No matter what form they come in, Hockey Shrines are an important cultural heritage resource that remind us that all communities, big or small, are capable of greatness.</p>
 
-            <h3>Contribute!</h3>
+            <h3 id = "contribute">Contribute!</h3>
             <div id="theNumberofSpots"></div>
             <p>Do you know of an interesting or important hockey shrine in your community? Add it to our map!</p> 
 <p> It's very easy, just fill out this form:</p>
@@ -67,7 +67,7 @@
 <iframe src="https://docs.google.com/forms/d/1nWiBlSJRmwEKLC49khnAzgGGSpC39N3wwjavS_Na_tQ/viewform?embedded=true#start=embed" width="700" height="1650" frameborder="0" marginheight="0" marginwidth="0" marginbottom="24px">Loading...</iframe>
 </div>
  <h3>About Me</h3>
-	<p>This project was started by <a href="http://lraheritage.com" target="_blank">Lauren Archer</a>, a Cultural Heritage Specialist, historic preservationist and maker who lives in Palmerston, Ontario. She has a special interest in using technology to map and identify cultural landscapes. She is also mildy obsessed with hockey, and its role in Canadian life, just like everybody else. Right?</p>
+	<p>This project was started by <a href="http://lraheritage.com" target="_blank">Lauren Archer</a>, a Cultural Heritage Specialist, historic preservationist and maker who lives in Palmerston, Ontario. She has a special interest in using technology to map and identify cultural heritage landscapes. She is also mildy obsessed with hockey and its role in Canadian life, just like everybody else. Right?</p>
 
             <h3>Fork-n-Go</h3>
 	<p>This project was built using the fantastic <a href="http://jlord.github.io/sheetsee.js" target="_blank">sheetsee.js</a>, which is a  JavaScript library built by <a href="http://jlord.github.io/sheetsee.js" target="_blank">Jessica Lord</a>.</p>
