@@ -179,6 +179,8 @@
                 $('#selectedSpot').html(selectedSpot).css("display", "inline")
                 var selectedCoords = [dataElement[0].lat, dataElement[0].long]
                 map.setView(selectedCoords, 14)
+		$("html, body").animate({ scrollTop: 100 }, 600);
+    		return false;
             })
 
             // so that the first map and info that loads

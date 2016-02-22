@@ -58,7 +58,7 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 #info {padding: 0 60px; border-top: 4px #F8F8F8 solid;}
 
 #hackSpotsTable {cursor: pointer; background: #fff; overflow-x: auto; padding-bottom: 20px;}
-#hackSpotsTable table {min-width: 900px;}
+#hackSpotsTable table {min-width: 500px;}
 #hackSpotsTable .tHeader:hover {color: #FF4646;}
 .tHeader::after {content: " \2193 \2191 "; font-size: 10px; padding-left: 3px;}
 .spotRow:hover {color: #FF4646;}
@@ -68,7 +68,6 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 1024px) {
   body {border: 20px #F8F8F8 solid; margin: 0px; padding: 20px 20px 80px 20px;}
-  #tableFilter, .clear, .resetMap {display: none;}
   #wrapper {max-width: 500px; padding-top: 20px;}
   #hackSpotsTable, #map {min-width: 224px;}
   iframe {max-width:500px; text-align: left; margin: 0;}
