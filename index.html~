@@ -18,7 +18,7 @@
     </head>
 <body>
     <div id="wrapper">
-        <h1><a href = "http://hockeyshrines.ca"><img src="hs.png" alt="Hockey Shrine" height="100" width="auto">Hockey Shrines</h1></a>
+        <h1><a href = "http://hockeyshrines.ca"><img src="hs.png" alt="Hockey Shrine" height="100" width="auto">  Hockey Shrines</h1></a>
 
         <div>
             <ul class="nav">
@@ -179,8 +179,7 @@
                 $('#selectedSpot').html(selectedSpot).css("display", "inline")
                 var selectedCoords = [dataElement[0].lat, dataElement[0].long]
                 map.setView(selectedCoords, 14)
-		$("html, body").animate({ scrollTop: 100 }, 600);
-    		return false;
+		$("html, body").animate({ scrollTop: 100 }, 600)
             })
 
             // so that the first map and info that loads
@@ -233,13 +232,13 @@
 
             if(window.location.hash) {
                 $('#tableFilter').val(window.location.hash.substring(1)).keyup()
-                $('.spotRow').first().click()
+              
             }
         }
 
         $(document).on('keyup', '#tableFilter', function() {
             window.location.hash = $(this).val()
-            $('.spotRow').first().click()
+          
         })
     </script>
 </body>
